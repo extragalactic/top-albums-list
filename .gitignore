@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.tmp
+.git
+edmDistrict.git
+npm-debug.log
+._*
+.stylishcolors
+.jsbeautifyrc

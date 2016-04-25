@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  overflow-x: hidden; }
+
+body {
+  background: black;
+  color: white;
+  font-size: 2.2em;
+  font-family: 'Raleway', sans-serif;
+  line-height: 90%;
+  padding: 0px 0px 5px 0px;
+  position: relative;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/district_logo_faded.png");
+  background-position: 50% 25px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  body label {
+    font-size: 0.6em; }
+  body input {
+    font-size: 0.8em;
+    color: black;
+    font-weight: bold; }
+  body a {
+    text-decoration: none;
+    color: #ffd069; }
+    body a:hover {
+      text-decoration: none;
+      color: #6998ff; }
+  body p {
+    color: #ddd;
+    font-size: 0.7em;
+    line-height: 120%; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 1em 0;
+  padding: 0; }
+
+h1 {
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  line-height: 90%;
+  font-size: 1.2em; }
+
+h2 {
+  font-size: 1.2em;
+  color: #ddd;
+  font-family: 'Arimo', sans-serif; }
+
+h3 {
+  color: #ddd;
+  font-size: 0.9em;
+  line-height: 120%; }
+
+h4 {
+  color: #ddd;
+  font-size: 0.7em;
+  line-height: 90%; }
+
+h5 {
+  color: #777;
+  font-size: 0.6em; }
+
+h6 {
+  color: #777;
+  font-size: 2.0em; }
+
+div button {
+  color: black;
+  font-size: 0.6em;
+  padding: 2px; }
+
+div label {
+  font-size: 0.7em; }
+
+select {
+  color: white;
+  background-color: #222;
+  font-size: 1.5em; }
+
+#headerLogo {
+  margin-top: -5px; }
+
+#listControlBox {
+  padding: 10px 10px 40px 15px; }
+
+#navigationBar li {
+  font-size: 0.7em; }
+
+.main {
+  margin-top: -30px;
+  padding-right: 20px;
+  padding-left: 7px; }
+
+.search {
+  padding: 0px 0px 15px 0px; }
+  .search label {
+    font-size: 0.7em; }
+
+.clearfix {
+  overflow: auto; }
+
+.albumList a {
+  display: block;
+  text-decoration: none; }
+
+.albumList li {
+  width: auto;
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+  .albumList li:hover {
+    background: #111;
+    border: 1px solid #ffd069;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05); }
+
+.albumListItem {
+  padding-bottom: 15px; }
+
+.albumInfo {
+  float: left;
+  padding: 5px; }
+
+.albumInfoThumbWrapper {
+  padding-right: 10px; }
+
+.albumInfoThumb {
+  border-radius: 8px; }
+
+.albumInfoText {
+  padding-top: 5px;
+  padding-right: 10px; }
+
+.albumOrderNumber {
+  float: left;
+  padding-right: 12px; }
+
+.usersIndicator {
+  float: right; }
+
+.navbar-custom {
+  background: linear-gradient(#444, #111); }
+
+.footer h4 {
+  color: #777; }
+
+.albumListItem.ng-enter.ng-enter-active, .albumListItem.ng-leave {
+  opacity: 1;
+  height: 160px;
+  overflow: hidden; }
+
+.albumListItem.ng-leave.ng-leave-active, .albumListItem.ng-enter {
+  opacity: 0;
+  height: 0px;
+  overflow: hidden; }

@@ -1,0 +1,46 @@
+<!-- album list page -->
+<section>
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <h3>Welcome to the edmDistrict <b>Top Albums List</b></h3>
+
+            <div id="listControlBox">
+               <label>Show Top
+                  <select ng-model="numberAlbums" ng-change="changeNumberAlbums()">
+                     <option value="5">5</option>
+                     <option value="10">10</option>
+                     <option value="20">20</option>
+                     <option value="40">40</option>
+                  </select>
+                  Albums
+               </label>
+               </br>
+               <label>Search: </label>
+               <input ng-model="query" placeholder="Enter search text" autofocus>
+            </div>
+
+            <div>
+               <ul class="albumList">
+                  <li ng-animate="'animate'" class="albumListItem clearfix" ng-repeat="item in filtered = (albumList | filter: query)">
+                     <div class="albumInfo">
+                        <div class="albumInfoThumbWrapper">
+                           <img class="albumInfoThumb" ng-src="images/album_covers/thumbnails/cover{{$index%20+1}}.jpg" alt="{{item.AlbumName}}">
+                       </div>
+                     </div>
+                     <div class="albumOrderNumber">
+                        <h6>{{$index+1}}</h6>
+                     </div>
+                     <div class="albumInfoText">
+                        <h3>{{item.AlbumName}}</h3>
+                        <h4>#Plays: {{item.NumberPlays_formatted}}</h4>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</section>
