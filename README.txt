@@ -55,22 +55,7 @@ g) The site is styled with the Sass CSS pre-processor.
 h) The project is built using Gulp
 
 
-The project URL on GitHub is: 
-
-
-
-*****************
-
-Notes from me: 
-
-
-- make sure I have some error handling for the GET request
-
-- the ng-animate on the list doesn't appear to be working
-
-
-*****************
-
+The project URL on GitHub is: https://github.com/extragalactic/top-albums-list.git
 
 
 
